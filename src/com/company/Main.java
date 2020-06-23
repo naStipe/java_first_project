@@ -42,7 +42,8 @@ public class Main {
 	public static float Addition(){
 		float a, b, res;
 		System.out.println("Input first value:");
-		//a = System.in.;
+		System.out.println("Input second value:");
+
 		//res = a + b;
 
 		return 0;
