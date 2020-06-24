@@ -14,7 +14,7 @@ public class Main {
 			switch (request) {
 				case "Add":
 					//Addition();
-					break;
+					break;//STIPA LOHHHHHHHH
 				case "Sub":
 					//Subtraction();
 					break;
@@ -49,3 +49,4 @@ public class Main {
 		return 0;
 	}
 
+}
