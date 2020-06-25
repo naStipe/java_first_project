@@ -1,19 +1,24 @@
 package com.company;
 
+import java.util.Scanner;
+
 public class Main {
 
 	public static Boolean toContinue = true;
 	public static String request;
+	public float result;
+	Scanner scan = new Scanner(System.in);
 
 	public static void main(String[] args) {
 		System.out.println("Welcome to the calculator!");
 
 		while (toContinue) {
 			showMenu();
-			request = System.in.toString();
+			Scanner scan = new Scanner(System.in);
+			request = scan.next();
 			switch (request) {
 				case "Add":
-					//Addition();
+					Addition();
 					break;
 				case "Sub":
 					//Subtraction();
@@ -28,6 +33,7 @@ public class Main {
 					toContinue = false;
 			}
 		}
+		System.exit(0);
 	}
 
 	public static void showMenu(){
@@ -41,12 +47,12 @@ public class Main {
 
 	public static float Addition(){
 		float a, b, res;
+		Scanner scan = new Scanner(System.in);
 		System.out.println("Input first value:");
+		a = scan.nextFloat();
 		System.out.println("Input second value:");
-
-		//res = a + b;
-
-		return 0;
+		b = scan.nextFloat();
+		res = a + b;
+		return res;
 	}
-
 }
