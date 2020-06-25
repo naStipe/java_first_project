@@ -24,4 +24,31 @@ public class MathOperations {
         res = a * b;
         System.out.println("The  is " + res);
     }
+    
+    public static void division(){
+        float number1, number2;
+        String result;
+
+        Scanner input = new Scanner(System.in);
+        System.out.println("Input first value:");
+        number1 = input.nextFloat();
+        System.out.println("Input second value:");
+        number2 = input.nextFloat();
+        result = Float.toString(number1/number2);
+        System.out.println("Result is " + result);
+
+    }
+
+    public static void multiplication(){
+        float number1, number2;
+        String result;
+
+        Scanner input = new Scanner(System.in);
+        System.out.println("Input first value:");
+        number1 = input.nextFloat();
+        System.out.println("Input second value:");
+        number2 = input.nextFloat();
+        result = Float.toString(number1*number2);
+        System.out.println("Result is " + result);
+    }
 }
