@@ -16,22 +16,12 @@ public class Main {
 			Scanner scan = new Scanner(System.in);
 			request = scan.next();
 			switch (request) {
-				case "Add":
-					MathOperations.Addition();
-					break;
-				case "Sub":
-					MathOperations.Subtraction();
-					break;
-				case "Mult":
-					//Multiplication();
-					break;
-				case "Div":
-					//Division();
-					break;
-				case "Exit":
-					toContinue = false;
-				default:
-					System.out.println("Вы ввели неверное значение. Проверте правильность написания и повторите попытку:");
+				case "Add" -> MathOperations.Addition();
+				case "Sub" -> MathOperations.Subtraction();
+				case "Mult" -> MathOperations.Multiplication();
+				case "Div" -> MathOperations.Division();
+				case "Exit" -> toContinue = false;
+				default -> System.out.println("Code-word is incorrect. Please, check the right one and try again");
 			}
 		}
 		System.exit(0);
