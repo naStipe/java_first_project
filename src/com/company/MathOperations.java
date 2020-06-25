@@ -21,7 +21,7 @@ public class MathOperations {
         a = scan.nextFloat();
         System.out.println("Input second value:");
         b = scan.nextFloat();
-        res = a * b;
+        res = a / b;
         System.out.println("The  is " + res);
     }
     
