@@ -25,7 +25,7 @@ public class MathOperations {
         System.out.println("The  is " + res);
     }
     
-    public static void division(){
+    public static void Division(){
         float number1, number2;
         String result;
 
@@ -39,7 +39,7 @@ public class MathOperations {
 
     }
 
-    public static void multiplication(){
+    public static void Multiplication(){
         float number1, number2;
         String result;
 
